@@ -37,7 +37,7 @@ class _LoomInterfaceState extends State<LoomInterface> {
   bool isProcessing = false;
 
   // REPLACE THIS with your specific Railway URL from Phase 1, Step 4
-  final String railwayUrl = 'https://loom-brain-python-production-8d9d.up.railway.app';
+  final String railwayUrl = 'https://loom-brain-python-production-8d9d.up.railway.app/organize';
 
   Future<void> processDrawing() async {
     // 1. Pick the PDF file
